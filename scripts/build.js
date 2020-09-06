@@ -20,7 +20,7 @@ svgtofont({
     index: "symbol", // Enum{"font-class", "unicode", "symbol"}
     title: "bootstrap-icons",
     // Must be a .svg format image.
-    logo: path.resolve(process.cwd(), "assets", "logo.png"),
+    logo: path.resolve(process.cwd(), "assets", "logo.svg"),
     version: pkg.version,
     meta: {
       description: "File icons in the file tree.",
