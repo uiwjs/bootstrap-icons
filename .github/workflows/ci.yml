@@ -18,8 +18,8 @@ jobs:
     - run: npm install
     - run: npm start
 
-    - name: Build and Deploy
+    - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        publish_dir: ./icons
+        publish_dir: ./fonts
