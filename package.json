@@ -10,9 +10,11 @@
   "author": "Kenny <wowohoo@qq.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaywcjlove/svgtofont.git"
+    "url": "https://github.com/uiwjs/bootstrap-icons.git"
   },
   "keywords": [
+    "bootstrap",
+    "bootstrap-icons",
     "svgtofont",
     "webfont",
     "font",

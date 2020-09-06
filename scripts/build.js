@@ -8,7 +8,7 @@ svgtofont({
   emptyDist: true,
   outSVGReact: true,
   outSVGPath: true,
-  fontName: "ffont", // font name
+  fontName: "btfont", // font name
   css: true, // Create CSS files.
   startNumber: 20000, // unicode start number
   nodemo: true, // no demo html files
