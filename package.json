@@ -1,0 +1,39 @@
+{
+  "name": "@uiw/bootstrap-icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/build.js"
+  },
+  "license": "MIT",
+  "author": "Kenny <wowohoo@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/svgtofont.git"
+  },
+  "keywords": [
+    "svgtofont",
+    "webfont",
+    "font",
+    "icon",
+    "iconfont",
+    "font-face",
+    "compress",
+    "minify",
+    "font-cli",
+    "ttf",
+    "woff",
+    "eot",
+    "svg",
+    "ttf2eot",
+    "ttf2woff",
+    "ttf2svg",
+    "svg2ttf",
+    "css",
+    "base64"
+  ],
+  "devDependencies": {
+    "svgtofont": "^3.1.1"
+  }
+}
