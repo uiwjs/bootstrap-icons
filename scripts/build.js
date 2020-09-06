@@ -23,8 +23,8 @@ svgtofont({
     logo: path.resolve(process.cwd(), "assets", "logo.svg"),
     version: pkg.version,
     meta: {
-      description: "File icons in the file tree.",
-      keywords: "file,icon,bootstrap-icons,TTF,EOT,WOFF,WOFF2,SVG"
+      description: "Official open source SVG icon library for Bootstrap.",
+      keywords: "Bootstrap,icon,bootstrap-icons,TTF,EOT,WOFF,WOFF2,SVG"
     },
     description: ``,
     links: [

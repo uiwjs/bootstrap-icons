@@ -1,7 +1,7 @@
 {
   "name": "@uiw/bootstrap-icons",
   "version": "1.0.0",
-  "description": "",
+  "description": "Official open source SVG icon library for Bootstrap.",
   "main": "index.js",
   "scripts": {
     "start": "node scripts/build.js"
