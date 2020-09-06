@@ -37,8 +37,6 @@
   </a>
 </p>
 
-File icons in the file tree using [vscode-material-icon-theme](https://github.com/PKief/vscode-material-icon-theme).
-
 Visit **[https://uiwjs.github.io/bootstrap-icons/](https://uiwjs.github.io/bootstrap-icons/index.html)** and check out the search feature, which has keywords identifying common icon names and styles. For example, if you search for "swift" we call up every icon that could possibly be used as an arrow. We've also included each icon's class name for easy copy/pasting when you're developing!
 
 They are free to use and licensed under [MIT](https://opensource.org/licenses/MIT). Use them wherever you see fit, personal or commercial. 
