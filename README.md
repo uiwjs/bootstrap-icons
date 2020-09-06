@@ -15,23 +15,18 @@
   <a href="https://github.com/uiwjs/bootstrap-icons/issues">
     <img src="https://img.shields.io/github/issues/uiwjs/bootstrap-icons.svg" />
   </a>
-  ·
   <a href="https://github.com/uiwjs/bootstrap-icons/network">
     <img src="https://img.shields.io/github/forks/uiwjs/bootstrap-icons.svg" />
   </a>
-  ·
   <a href="https://github.com/uiwjs/bootstrap-icons/stargazers">
     <img src="https://img.shields.io/github/stars/uiwjs/bootstrap-icons.svg" />
   </a>
-  ·
   <a href="https://github.com/uiwjs/bootstrap-icons/releases">
     <img src="https://img.shields.io/github/release/uiwjs/bootstrap-icons.svg" />
   </a>
-  ·
   <a href="https://github.com/uiwjs/bootstrap-icons">
     <img src="https://img.shields.io/dub/l/vibe-d.svg" />
   </a>
-  ·
   <a href="https://www.npmjs.com/package/@uiw/bootstrap-icons">
     <img src="https://img.shields.io/npm/v/@uiw/bootstrap-icons.svg" />
   </a>
