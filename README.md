@@ -1,5 +1,10 @@
-Bootstrap Icon Font
----
+<p align="center">
+  <a href="https://uiwjs.github.io/bootstrap-icons/index.html">
+    <img src="https://v5.getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="200" height="165">
+  </a>
+</p>
+
+<h3 align="center">Bootstrap Icons Font</h3>
 
 [![](https://img.shields.io/github/issues/uiwjs/bootstrap-icons.svg)](https://github.com/uiwjs/bootstrap-icons/issues) [![](https://img.shields.io/github/forks/uiwjs/bootstrap-icons.svg)](https://github.com/uiwjs/bootstrap-icons/network) [![](https://img.shields.io/github/stars/uiwjs/bootstrap-icons.svg)](https://github.com/uiwjs/bootstrap-icons/stargazers) [![](https://img.shields.io/github/release/uiwjs/bootstrap-icons.svg)](https://github.com/uiwjs/bootstrap-icons/releases) [![Packagist](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/uiwjs/bootstrap-icons) [![Packagist](https://img.shields.io/npm/v/@uiw/bootstrap-icons.svg)](https://www.npmjs.com/package/@uiw/bootstrap-icons)
 
@@ -9,12 +14,6 @@ Visit **[https://uiwjs.github.io/bootstrap-icons/](https://uiwjs.github.io/boots
 
 They are free to use and licensed under [MIT](https://opensource.org/licenses/MIT). Use them wherever you see fit, personal or commercial. 
 
-<p align="center">
-  <a href="https://uiwjs.github.io/bootstrap-icons">
-    <img src="https://github.com/uiwjs/bootstrap-icons/raw/master/assets/logo.png">
-  </a>
-</p>
-
 ## Install
 
 ```bash
@@ -23,7 +22,7 @@ npm install @uiw/bootstrap-icons --save
 
 ## Usage
 
-You can use [https://uiwjs.github.io/bootstrap-icons/](https://uiwjs.github.io/bootstrap-icons/index.html) to easily find the icon you want to use. Once you've copied the desired icon's CSS classname, simply add the icon and icon's classname, such as `apple` to an HTML element.
+You can use [https://uiwjs.github.io/bootstrap-icons/](https://uiwjs.github.io/bootstrap-icons/index.html) to easily find the icon you want to use. Once you've copied the desired icon's CSS classname, simply add the icon and icon's classname, such as `archive` to an HTML element.
 
 Suppose the font name is defined as `btfont`, The default home page is `unicode`, Will generate: 
 
