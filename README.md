@@ -6,7 +6,36 @@
 
 <h3 align="center">Bootstrap Icons Font</h3>
 
-[![](https://img.shields.io/github/issues/uiwjs/bootstrap-icons.svg)](https://github.com/uiwjs/bootstrap-icons/issues) [![](https://img.shields.io/github/forks/uiwjs/bootstrap-icons.svg)](https://github.com/uiwjs/bootstrap-icons/network) [![](https://img.shields.io/github/stars/uiwjs/bootstrap-icons.svg)](https://github.com/uiwjs/bootstrap-icons/stargazers) [![](https://img.shields.io/github/release/uiwjs/bootstrap-icons.svg)](https://github.com/uiwjs/bootstrap-icons/releases) [![Packagist](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/uiwjs/bootstrap-icons) [![Packagist](https://img.shields.io/npm/v/@uiw/bootstrap-icons.svg)](https://www.npmjs.com/package/@uiw/bootstrap-icons)
+<p align="center">
+  Official open source SVG icon library for Bootstrap.
+  <br>
+  <a href="https://icons.getbootstrap.com/"><strong>Explore Bootstrap Icons »</strong></a>
+  <br>
+  <br>
+  <a href="https://github.com/uiwjs/bootstrap-icons/issues">
+    <img src="https://img.shields.io/github/issues/uiwjs/bootstrap-icons.svg" />
+  </a>
+  ·
+  <a href="https://github.com/uiwjs/bootstrap-icons/network">
+    <img src="https://img.shields.io/github/forks/uiwjs/bootstrap-icons.svg" />
+  </a>
+  ·
+  <a href="https://github.com/uiwjs/bootstrap-icons/stargazers">
+    <img src="https://img.shields.io/github/stars/uiwjs/bootstrap-icons.svg" />
+  </a>
+  ·
+  <a href="https://github.com/uiwjs/bootstrap-icons/releases">
+    <img src="https://img.shields.io/github/release/uiwjs/bootstrap-icons.svg" />
+  </a>
+  ·
+  <a href="https://github.com/uiwjs/bootstrap-icons">
+    <img src="https://img.shields.io/dub/l/vibe-d.svg" />
+  </a>
+  ·
+  <a href="https://www.npmjs.com/package/@uiw/bootstrap-icons">
+    <img src="https://img.shields.io/npm/v/@uiw/bootstrap-icons.svg" />
+  </a>
+</p>
 
 File icons in the file tree using [vscode-material-icon-theme](https://github.com/PKief/vscode-material-icon-theme).
 
