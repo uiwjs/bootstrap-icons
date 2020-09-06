@@ -36,6 +36,10 @@ Visit **[https://uiwjs.github.io/bootstrap-icons/](https://uiwjs.github.io/boots
 
 They are free to use and licensed under [MIT](https://opensource.org/licenses/MIT). Use them wherever you see fit, personal or commercial. 
 
+## 1,100+ icons
+
+[![Bootstrap Icons full set](https://user-images.githubusercontent.com/98681/91365119-402cdc00-e7b5-11ea-9a2c-e1a03aed21c3.png)](https://icons.getbootstrap.com)
+
 ## Install
 
 ```bash
