@@ -2,6 +2,6 @@
 import React from 'react';
 
 export const Power = props => (
-  <svg viewBox="0 0 20 20" {...props}><path d="M5.578 4.437a5 5 0 1 0 4.922.044l.5-.866a6 6 0 1 1-5.908-.053l.486.875z" fillRule="evenodd" />,
-<path d="M7.5 8V1h1v7h-1z" fillRule="evenodd" /></svg>
+  <svg viewBox="0 0 20 20" {...props}><path d="M7.5 1v7h1V1h-1z" fillRule="evenodd" />,
+<path d="M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z" fillRule="evenodd" /></svg>
 );

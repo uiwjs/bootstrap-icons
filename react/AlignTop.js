@@ -2,6 +2,5 @@
 import React from 'react';
 
 export const AlignTop = props => (
-  <svg viewBox="0 0 20 20" {...props}><path d="M6 14a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v10z" fillRule="evenodd" />,
-<path d="M1 1.5a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 0-1h-13a.5.5 0 0 0-.5.5z" fillRule="evenodd" /></svg>
+  <svg viewBox="0 0 20 20" {...props}><path d="M1.5 2a.5.5 0 0 1 0-1v1zm13-1a.5.5 0 0 1 0 1V1zm-13 0h13v1h-13V1z" fillRule="evenodd" /></svg>
 );
