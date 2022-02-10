@@ -36,6 +36,6 @@
     "base64"
   ],
   "devDependencies": {
-    "svgtofont": "3.13.1"
+    "svgtofont": "3.16.1"
   }
 }
