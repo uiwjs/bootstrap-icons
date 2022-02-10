@@ -118,6 +118,16 @@ import { Activity, Wifi } from '@uiw/bootstrap-icons';
 
 - [`@uiw/icons`](https://github.com/uiwjs/icons) The premium icon font for [`@uiwjs`](https://github.com/uiwjs) Component Library.
 
+## Contributors
+
+As always, thanks to our amazing contributors!
+
+<a href="https://github.com/uiwjs/bootstrap-icons/graphs/contributors">
+  <img src="https://uiwjs.github.io/bootstrap-icons/CONTRIBUTORS.svg" />
+</a>
+
+Made with [github-action-contributors](https://github.com/jaywcjlove/github-action-contributors).
+
 ## License
 
 Created By [svgtofont](https://github.com/jaywcjlove/svgtofont), Licensed under the [MIT License](https://opensource.org/licenses/MIT).
