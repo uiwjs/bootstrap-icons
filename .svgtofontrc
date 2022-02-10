@@ -14,7 +14,6 @@
     "index": "symbol",
     "title": "bootstrap-icons",
     "logo": "assets/logo.svg",
-    "version": "v111",
     "meta": {
       "description": "Official open source SVG icon library for Bootstrap.",
       "keywords": "Bootstrap,icon,bootstrap-icons,TTF,EOT,WOFF,WOFF2,SVG"
