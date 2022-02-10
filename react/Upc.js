@@ -1,0 +1,4 @@
+import React from 'react';
+export const Upc = props => (
+  <svg viewBox="0 0 20 20" width="16px" height="16px" {...props} className={`btfont ${props.className ? props.className : ''}`}><path d="M3 4.5a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-7zm3 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7z" fillRule="evenodd" /></svg>
+);
