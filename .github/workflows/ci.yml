@@ -20,6 +20,8 @@ jobs:
     - run: npm run copy
     - run: rm -rf fonts/react
 
+    - run: rm -rf fonts/*.html
+
     - run: npm install @jsdevtools/npm-publish -g
     - run: npm-publish --token="${{ secrets.NPM_TOKEN }}" ./package.json
 
