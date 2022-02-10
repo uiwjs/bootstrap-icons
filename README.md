@@ -116,7 +116,7 @@ import { Activity, Wifi } from '@uiw/bootstrap-icons';
 
 ## Related
 
-- [`@uiw/icons`](https://github.com/uiwjs/icons) The premium icon font for @uiwjs Component Library.
+- [`@uiw/icons`](https://github.com/uiwjs/icons) The premium icon font for [`@uiwjs`](https://github.com/uiwjs) Component Library.
 
 ## License
 
