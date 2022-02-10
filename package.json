@@ -1,10 +1,15 @@
 {
   "name": "@uiw/bootstrap-icons",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Official open source SVG icon library for Bootstrap.",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./esm/index.d.ts",
   "scripts": {
-    "start": "node scripts/build.js"
+    "font": "svgtofont --sources icons/icons --output fonts",
+    "copy": "copyfiles -f fonts/react/*.d.ts lib --verbose && copyfiles -f fonts/react/*.d.ts esm --verbose",
+    "build": "tsbb build --entry fonts/react/index.js",
+    "start": "npm run font && npm run build && npm run copy"
   },
   "license": "MIT",
   "author": "Kenny <wowohoo@qq.com>",
@@ -12,6 +17,11 @@
     "type": "git",
     "url": "https://github.com/uiwjs/bootstrap-icons.git"
   },
+  "files": [
+    "fonts",
+    "esm",
+    "lib"
+  ],
   "keywords": [
     "bootstrap",
     "bootstrap-icons",
@@ -36,6 +46,8 @@
     "base64"
   ],
   "devDependencies": {
-    "svgtofont": "3.13.1"
+    "copyfiles": "2.4.1",
+    "svgtofont": "3.17.2",
+    "tsbb": "3.5.6"
   }
 }

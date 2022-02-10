@@ -103,6 +103,21 @@ Support for `.less` and `.css` styles references.
 <i class="btfont-javascript"></i>
 ```
 
+### React
+
+Icons are used as components. `v1.3.0+` support.
+
+```jsx
+import { Activity, Wifi } from '@uiw/bootstrap-icons';
+
+<Activity style={{ fill: 'red' }} />
+<Wifi height="36" />
+```
+
+## Related
+
+- [`@uiw/icons`](https://github.com/uiwjs/icons) The premium icon font for @uiwjs Component Library.
+
 ## License
 
 Created By [svgtofont](https://github.com/jaywcjlove/svgtofont), Licensed under the [MIT License](https://opensource.org/licenses/MIT).

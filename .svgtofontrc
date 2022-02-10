@@ -1,0 +1,47 @@
+{
+  "emptyDist": true,
+  "outSVGReact": true,
+  "outSVGPath": true,
+  "fontName": "btfont",
+  "css": true,
+  "startNumber": 20000,
+  "nodemo": true,
+  "svgicons2svgfont": {
+    "fontHeight": 1000,
+    "normalize": true
+  },
+  "website": {
+    "index": "symbol",
+    "title": "bootstrap-icons",
+    "logo": "assets/logo.svg",
+    "version": "v111",
+    "meta": {
+      "description": "Official open source SVG icon library for Bootstrap.",
+      "keywords": "Bootstrap,icon,bootstrap-icons,TTF,EOT,WOFF,WOFF2,SVG"
+    },
+    "description": "",
+    "links": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/uiwjs/bootstrap-icons"
+      },
+      {
+        "title": "Feedback",
+        "url": "https://github.com/uiwjs/bootstrap-icons/issues"
+      },
+      {
+        "title": "Font Class Demo",
+        "url": "font-class.html"
+      },
+      {
+        "title": "Symbol Demo",
+        "url": "index.html"
+      },
+      {
+        "title": "Unicode Demo",
+        "url": "unicode.html"
+      }
+    ],
+    "footerInfo": "Licensed under MIT. (Yes it's free and <a href=\"https://github.com/uiwjs/bootstrap-icons\">open-sourced</a>)"
+  }
+}
