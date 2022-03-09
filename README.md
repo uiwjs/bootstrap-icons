@@ -12,14 +12,11 @@
   <a href="https://icons.getbootstrap.com/"><strong>Explore Bootstrap Icons »</strong></a>
   <br>
   <br>
-  <a href="https://github.com/uiwjs/bootstrap-icons/issues">
-    <img src="https://img.shields.io/github/issues/uiwjs/bootstrap-icons.svg" />
+  <a href="https://www.npmjs.com/package/@uiw/bootstrap-icons">
+    <img alt="NPM Downloads" src="https://img.shields.io/npm/dm/@uiw/bootstrap-icons.svg?style=flat" />
   </a>
-  <a href="https://github.com/uiwjs/bootstrap-icons/network">
-    <img src="https://img.shields.io/github/forks/uiwjs/bootstrap-icons.svg" />
-  </a>
-  <a href="https://github.com/uiwjs/bootstrap-icons/stargazers">
-    <img src="https://img.shields.io/github/stars/uiwjs/bootstrap-icons.svg" />
+  <a href="https://www.jsdelivr.com/package/npm/@uiw/bootstrap-icons">
+    <img src="https://data.jsdelivr.com/v1/package/npm/@uiw/bootstrap-icons/badge?style=rounded" />
   </a>
   <a href="https://github.com/uiwjs/bootstrap-icons/releases">
     <img src="https://img.shields.io/github/release/uiwjs/bootstrap-icons.svg" />
@@ -109,10 +106,51 @@ Icons are used as components. `v1.3.0+` support.
 
 ```jsx
 import { Activity, Wifi } from '@uiw/bootstrap-icons';
+import { Activity } from '@uiw/icons/Activity';
 
 <Activity style={{ fill: 'red' }} />
 <Wifi height="36" />
 ```
+
+**Custom Icon Component**
+
+Create an `Icon` component.
+
+```jsx
+import React from 'react';
+import svgPaths from '@uiw/icons/fonts/w-icon.json';
+
+const renderSvgPaths = (type) => {
+  const pathStrings = svgPaths[type];
+  if (pathStrings == null) {
+    return null
+  }
+  return pathStrings.map((d, i) => <path key={i} d={d} fillRule="evenodd" />)
+}
+
+export default class Icon extends React.PureComponent {
+  render() {
+    const { type, color } = this.props;
+    if (type == null || typeof type === "boolean") {
+      return null;
+    }
+    return (
+      <svg fill={color} viewBox={`0 0 24 24`}>{this.renderSvgPaths(type)}</svg>
+    );
+  }
+}
+```
+
+Use the `Icon` component:
+
+```jsx
+const demo = () => {
+  return (
+    <Icon type="wifi" />
+  )
+}
+```
+
 
 ## Related
 
