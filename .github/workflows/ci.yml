@@ -27,12 +27,6 @@ jobs:
 
     - run: rm -rf fonts/*.html
 
-    - name: 📦 @uiw/icons publish to NPM
-      uses: JS-DevTools/npm-publish@v1
-      with:
-        token: ${{ secrets.NPM_TOKEN }}
-        package: ./package.json
-        
     - name: Generate Contributors Images
       uses: jaywcjlove/github-action-contributors@main
       with:
@@ -83,3 +77,10 @@ jobs:
           ```
           
           ${{ steps.changelog.outputs.changelog }}
+
+    - name: 📦 @uiw/icons publish to NPM
+      uses: JS-DevTools/npm-publish@v1
+      with:
+        token: ${{ secrets.NPM_TOKEN }}
+        package: ./package.json
+        
