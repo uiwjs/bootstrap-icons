@@ -42,7 +42,7 @@
   ],
   "devDependencies": {
     "copyfiles": "~2.4.1",
-    "svgtofont": "~3.17.6",
+    "svgtofont": "~3.23.0",
     "tsbb": "~3.7.2"
   }
 }
