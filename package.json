@@ -7,9 +7,10 @@
   "types": "./esm/index.d.ts",
   "scripts": {
     "font": "svgtofont --sources icons/icons --output fonts",
-    "copy": "copyfiles -f fonts/react/*.d.ts lib --verbose && copyfiles -f fonts/react/*.d.ts esm --verbose",
-    "build": "tsbb build --entry fonts/react/index.js",
-    "start": "npm run font && npm run build && npm run copy"
+    "copy:svg": "cpy icons/icons/*.svg svg --flat",
+    "copy": "cpy fonts/react/*.js fonts/react/*.d.ts react --flat",
+    "build": "tsbb build react/*.{js,d.ts} --useBabel",
+    "start": "npm run font && npm run copy:svg && npm run copy && npm run build"
   },
   "license": "MIT",
   "author": "Kenny <wowohoo@qq.com>",
@@ -17,6 +18,17 @@
     "type": "git",
     "url": "https://github.com/uiwjs/bootstrap-icons.git"
   },
+  "files": [
+    "lib",
+    "esm",
+    "svg",
+    "*.js",
+    "*.d.ts",
+    "icon",
+    "!icon/react",
+    "!icon/*.html",
+    "fonts"
+  ],
   "keywords": [
     "bootstrap",
     "bootstrap-icons",
@@ -41,8 +53,8 @@
     "base64"
   ],
   "devDependencies": {
-    "copyfiles": "~2.4.1",
-    "svgtofont": "~3.17.6",
-    "tsbb": "~3.7.2"
+    "cpy-cli": "^4.2.0",
+    "svgtofont": "~3.23.0",
+    "tsbb": "^4.0.2"
   }
 }

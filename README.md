@@ -100,16 +100,64 @@ Support for `.less` and `.css` styles references.
 <i class="btfont-javascript"></i>
 ```
 
-### React
+### Used in React
 
 Icons are used as components. `v1.3.0+` support.
 
 ```jsx
 import { Activity, Wifi } from '@uiw/bootstrap-icons';
-import { Activity } from '@uiw/icons/Activity';
+import { Activity } from '@uiw/bootstrap-icons/Activity';
 
 <Activity style={{ fill: 'red' }} />
 <Wifi height="36" />
+```
+
+To use SVG images as React components directly, webpack loader support is required.
+
+Install dependencies:
+
+```bash
+yarn add @svgr/webpack file-loader
+```
+
+Configure webpack loader:
+
+```js
+// webpack.config.js
+{
+  test: /\.svg$/,
+  use: [
+    {
+      loader: require.resolve('@svgr/webpack'),
+      options: {
+        prettier: false,
+        svgo: false,
+        svgoConfig: {
+          plugins: [{ removeViewBox: false }],
+        },
+        titleProp: true,
+        ref: true,
+      },
+    },
+    {
+      loader: require.resolve('file-loader'),
+      options: {
+        name: 'static/media/[name].[hash].[ext]',
+      },
+    },
+  ],
+  issuer: {
+    and: [/\.(ts|tsx|js|jsx|md|mdx)$/],
+  },
+},
+```
+
+You can then import the SVG as a React component like this:
+
+```javascript
+import { ReactComponent as ComLogo } from '@uiw/bootstrap-icons/svg/wifi.svg';
+
+<ComLogo />
 ```
 
 **Custom Icon Component**
