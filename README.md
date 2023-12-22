@@ -15,8 +15,8 @@
   <a href="https://www.npmjs.com/package/@uiw/bootstrap-icons">
     <img alt="NPM Downloads" src="https://img.shields.io/npm/dm/@uiw/bootstrap-icons.svg?style=flat" />
   </a>
-  <a href="https://www.jsdelivr.com/package/npm/@uiw/bootstrap-icons">
-    <img src="https://data.jsdelivr.com/v1/package/npm/@uiw/bootstrap-icons/badge?style=rounded" />
+  <a href="https://jaywcjlove.github.io/#/sponsor">
+    <img alt="Buy me a coffee" src="https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee" />
   </a>
   <a href="https://github.com/uiwjs/bootstrap-icons/releases">
     <img src="https://img.shields.io/github/release/uiwjs/bootstrap-icons.svg" />
