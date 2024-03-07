@@ -56,7 +56,7 @@
   ],
   "devDependencies": {
     "cpy-cli": "^4.2.0",
-    "svgtofont": "~4.1.0",
+    "svgtofont": "~4.2.0",
     "tsbb": "^4.0.2"
   }
 }
