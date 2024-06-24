@@ -1,11 +1,11 @@
 @font-face {
   font-family: "btfont";
-  src: url('btfont.eot?t=1703228794902'); /* IE9*/
-  src: url('btfont.eot?t=1703228794902#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("btfont.woff2?t=1703228794902") format("woff2"),
-  url("btfont.woff?t=1703228794902") format("woff"),
-  url('btfont.ttf?t=1703228794902') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('btfont.svg?t=1703228794902#btfont') format('svg'); /* iOS 4.1- */
+  src: url('btfont.eot?t=1719213904198'); /* IE9*/
+  src: url('btfont.eot?t=1719213904198#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("btfont.woff2?t=1719213904198") format("woff2"),
+  url("btfont.woff?t=1719213904198") format("woff"),
+  url('btfont.ttf?t=1719213904198') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('btfont.svg?t=1719213904198#btfont') format('svg'); /* iOS 4.1- */
 }
 
 [class^="btfont-"], [class*=" btfont-"] {
